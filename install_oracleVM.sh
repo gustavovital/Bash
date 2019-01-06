@@ -17,6 +17,8 @@ echo "	O procedimento a seguir instalará o Oracle-VirtualBox na sua versão"
 echo "	mais atual até o momento (5.2). Adicionará o PPA ao repositório, as"
 echo "	chaves de segurança do pacote e atualizará o sistema."
 echo ""
+echo "Você deve ser um ROOT para continuar"
+echo ""
 read -p "Deseja continuar? (y/N) " answer
 
 if [[ $answer = "y" ]]; then
