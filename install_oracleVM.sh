@@ -22,25 +22,14 @@ echo ""
 read -p "Deseja continuar? (y/N) " answer
 
 if [[ $answer = "y" ]]; then
-  echo ""
-  echo "====================================================================="
-  echo "                     Iniciando a Instalação"
-  echo "====================================================================="
-  sleep 2
-  echo "====================================================================="
-  echo "                     Atualizando o Sistema"
-  echo "====================================================================="
   apt-get update
   apt-get upgrade -y
   echo "====================================================================="
   echo "                 Adicionando o VirtualBox PPA"
   echo "====================================================================="
-  sleep 1
+  
   add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian stretch contrib"
-  echo "====================================================================="
-  echo "               Importando as Chaves de Assinatura dos Pacotes"
-  echo "====================================================================="
-  sleep 1
+  
   wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | apt-key add -
   wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | apt-key add -
   echo "====================================================================="
