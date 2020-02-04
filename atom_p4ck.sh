@@ -32,3 +32,5 @@ apm install hydrogen
 apm install hydrogen-launcher
 apm install file-icons
 apm install atom-clock
+
+# atualizar o script ----
