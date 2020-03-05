@@ -26,3 +26,5 @@ apt install virtualbox-6.0
 
 cd ~/
 wget https://download.virtualbox.org/virtualbox/6.0.0/Oracle_VM_VirtualBox_Extension_Pack-6.0.0.vbox-extpack
+
+reboot
