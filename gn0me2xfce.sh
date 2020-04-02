@@ -7,8 +7,11 @@
 # Última data de modificação: 30/03/2020
 ##################################################################
 
-sudo apt-get install task-xfce-desktop
-sudo tasksel
+echo "rodar como root"
+sleep 2
+
+apt-get install task-xfce-desktop
+tasksel
 
 echo "Removendo o gnome"
 sleep 2
