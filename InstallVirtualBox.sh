@@ -8,7 +8,7 @@
 # Última data de modificação: 29/12/2019
 ##################################################################
 
-apt-get update
+apt-get update -y
 apt-get upgrade -y
     
 add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian stretch contrib"
