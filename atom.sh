@@ -1,9 +1,7 @@
 #!/bin/bash
 
-#
 # Instalação de ipykernels e user
 # para o funcionamento do atom-python
-#
 
 echo "RODAR O SCRIPT COMO ROOT"
 sleep 4
@@ -34,3 +32,4 @@ apm install file-icons
 apm install atom-clock
 
 # atualizar o script ----
+# script pra windows? 
