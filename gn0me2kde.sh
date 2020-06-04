@@ -15,4 +15,4 @@ apt-get install kde-plasma-desktop -y
 
 echo "Removendo o gnome"
 
-apt-get autoremove --purge gnome*
+apt autoremove --purge gnome*
