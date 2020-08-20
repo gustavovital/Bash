@@ -32,4 +32,3 @@ apm install file-icons
 apm install atom-clock
 
 # atualizar o script ----
-# script pra windows? 
