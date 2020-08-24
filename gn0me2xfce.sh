@@ -17,3 +17,5 @@ echo "Removendo o gnome"
 sleep 2
 
 apt-get autoremove --purge gnome*
+
+# Atualizar script
